@@ -4,18 +4,18 @@ function Pacijent() {
       <div>
       <div class="header-blue">
           <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
-              <div class="container"><a class="navbar-brand" href="#">Company Name</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+              <div class="container"><a class="navbar-brand" href="#">Company Name</a>
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"> <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                   <div class="collapse navbar-collapse"
                       id="navcol-1">
                       <ul class="nav navbar-nav">
-                          <li class="nav-item" role="presentation"><a class="nav-link active" href="/login">Link</a></li>
+                          <li class="nav-item " role="presentation"><a class="nav-link active" href="/login">Link</a></li>
                           {/* <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="">Dropdown </a> */}
                               {/* <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="/doktor">First Item</a><a class="dropdown-item" role="presentation" href="/administrator">Second Item</a><a class="dropdown-item" role="presentation" href="/administrator">Third Item</a></div> */}
-                          <li class="nav-item"> Pretraži <select class="dropdown dropdown-toggle nav-link dropdown-toggle menu"  > 
-                            <option value="/login" > Dijagnoze </option>
+                          <li class="nav-item nav-link active "> Pretraži <select class="dropdown dropdown-toggle nav-link dropdown-toggle menu"  > 
+                            <option value="/login"  > Dijagnoze </option>
                             <option value="/login" > Terapije </option>
                             <option value="/login" > Preglede </option>
-
 
 
                           </select>
@@ -23,7 +23,7 @@ function Pacijent() {
                           {/* </li> */}
                       </ul>
                       <form class="form-inline mr-auto" target="_self">
-                          <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><p class="form-control search-field"  id="search-field"> </p></div>
+                          {/* <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><p class="form-control search-field"  id="search-field"> </p></div> */}
                       </form><span class="navbar-text"> <a href="#" class="login">Log In</a></span><a class="btn btn-light action-button" role="button" href="#">Sign Up</a></div>
               </div>
           </nav>
